@@ -18,7 +18,7 @@ import pandas as pd
 class TD_metrics:
     """class calculates time domain metrics for a pd.series type list of RR intervals"""
     def __init__(self, data: pd.Series):
-        if not isinstance(data, pd.Series):#establish correct type
+        if not isinstance(data, pd.Series):#establish correct type should be pd.series
             raise TypeError(f"Expected a pandas Series, but got {type(HRV_data).__name__}")
         self.data = data.dropna().values #drop Nan values
 

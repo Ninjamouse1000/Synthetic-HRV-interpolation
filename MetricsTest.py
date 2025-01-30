@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import BasicGenerator
 import HRV_Metrics
 
-
+"""example of how to use HRV_metrics module"""
 frequencies = [0.15, 0.35, 0.45]
 magnitudes = [1, 0.5, 0.3]
 
